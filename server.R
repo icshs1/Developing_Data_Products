@@ -18,7 +18,7 @@ shinyServer(
       w=mtcars[ , value()] 
       hist(w,main = title,xlab=xlab) 
     }) 
-    
+     
     
     output$plot_corr <- renderPlot({ ## plot correlation between variables 
       pairs(select_data()) 

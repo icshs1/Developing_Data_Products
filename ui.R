@@ -31,5 +31,5 @@ shinyUI(
              tabPanel("About",
                       mainPanel(includeMarkdown("introduction.md"))
              )
-  )
+  ) 
 )
