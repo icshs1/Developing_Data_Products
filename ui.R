@@ -1,4 +1,5 @@
 library(UsingR) 
+library(markdown)
 data(mtcars) 
 variables <- sort(colnames(mtcars)) 
 

@@ -7,3 +7,5 @@ The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel
 Source code is available on the [GitHub](https://github.com/icshs1/Developing_Data_Products).
 
 You can adjust date variables of mtcars on the left side and can show plot result according selected vairables ont the right side. 
+
+You can excute this App on the [Shinyapp.io](https://icshs1.shinyapps.io/Developing_Data_Products/)
