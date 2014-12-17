@@ -87,7 +87,7 @@ shinyServer(
 
     ## print results of prediction 
     output$predictedValue <- renderText({input$goButton 
-                             isolate(sprintf("For %s %g\n automatic is: %g mpg\n standard is %g mpg", 
+                             isolate(sprintf("For %s %g\n automatic is: %g mpg.\n standard is %g mpg.", 
                              input$id4, predict_value(), predict_result()[1], predict_result()[2])) 
     }) 
   } 
